@@ -1,0 +1,91 @@
+/* Your CSS goes here --------------------- */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header h1{
+    font-family: 'Space Grotesk', sans-serif;
+    color: #191919;
+}
+
+header{
+    background-color: #7c7c7c;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+#input{
+    background-color: #cfcccc;
+    padding: 30px;
+}
+
+#output{
+    background-color: #000000;
+}
+
+#imgSelector{
+    height: 30px;
+    border-radius: 10px;
+}
+
+label:nth-of-type(1){
+    font-family: 'Space Grotesk', sans-serif;
+    color: #191919
+}
+
+#textIndex{
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#textIndex2{
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+input{
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+label{
+    font-family: 'Space Grotesk', sans-serif;
+    color: #191919;
+}
+
+#colSelector{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.colSelector{
+    color: #191919;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+#slider{
+    width: 200px;
+    
+}
+
+#fontWeight{
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+
+
+#popup {
+    background-color: #191919;
+}
+
+#popup p {
+    color: #ffffff;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
