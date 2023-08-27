@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('Comfortaa.eot');
+    src: url('Comfortaa.eot?#iefix') format('embedded-opentype'),
+         url('Comfortaa.woff2') format('woff2'),
+         url('Comfortaa.woff') format('woff'),
+         url('Comfortaa.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@media (max-width: 1920px) {
+    .navbar {
+        height: 80px;
+    }
+
+    .image-box,
+    .image-box-2 {
+        width: calc(25% - 20px); /* 4 boxes in a row with 10px gap on each side */
+        margin-bottom: 20px;
+    }
+}
+
+/* Media query for screens up to 1400px wide */
+@media (max-width: 1400px) {
+    .navbar {
+        height: 80px;
+    }
+
+    .image-container,
+    .image-container-2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-box,
+    .image-box-2 {
+        width: calc(33.33% - 10px);
+        margin-bottom: 20px;
+    }
+}
+
+/* Media query for screens up to 900px wide */
+@media (max-width: 900px) {
+    .navbar {
+        height: 80px;
+    }
+
+    .image-box,
+    .image-box-2 {
+        width: calc(50% - 10px);
+    }
+}
+
+/* Below 600px, stack the image boxes vertically */
+@media (max-width: 600px) {
+    .navbar {
+        height: 60px;
+    }
+
+    .image-container,
+    .image-container-2 {
+        justify-content: flex-start;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .image-box,
+    .image-box-2 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', monospace;
+    font-size: 24px;
+    font-weight: bolder;
+    background-color: #191919;
+}
+
+.navbar {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-logo {
+    max-height: 100%;
+    border-radius: 9px;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.image-container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.image-box {
+    background-color: white;
+    /*width: calc(25% - 10px);*/
+    border: 1px solid #ddd;
+    border-radius: 9px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.image-box img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-box-2 {
+    background-color: white;
+    /*width: calc(25% - 10px);*/
+    border: 1px solid #ddd;
+    border-radius: 9px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.image-box-2 img {
+    max-width: 100%;
+    height: auto;
+}
