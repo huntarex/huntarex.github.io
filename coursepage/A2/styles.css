@@ -1,0 +1,222 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-text-stroke: 0.5px black; /* Blue outline (for Webkit browsers) */
+    text-stroke: .5px black; /* Blue outline (standard) */
+}
+
+/* Style for the navbar */
+.navbar {
+    background-color: rgb(75, 159, 212); /* Background color of the navbar */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    z-index: 100; /* Ensure the navbar appears above other content */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for depth */
+}
+
+/* Style for the logo */
+.logo img {
+    height: 75px; /* Adjust the height as needed */
+    width: auto; /* Automatically adjust the width while maintaining aspect ratio */
+}
+
+/* Center-align the h2 text */
+.navbar h1 {
+    margin: 0;
+    color: yellow;
+    font-size: 72px; /* Adjust the font size as needed */
+    text-align: center; /* Center-align the text */
+    flex-grow: 1; /* Allow the text to take up available space */
+}
+
+.navbar p {
+    color: yellow;
+    font-size: 14px; /* Adjust the font size as needed */
+    margin-right: 20px;
+
+}
+
+.logo2 {
+    height: 40px; /* Adjust the height as needed */
+    width: 100px;/* Automatically adjust the width while maintaining aspect ratio */
+    margin-right: 80px;
+    margin-top: 35px;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 100px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.image-box {
+    background-color: white;
+    width: calc(25% - 10px);
+    border: 1px solid #ddd;
+    border-radius: 9px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.image-box h2 {
+    font-size: 200px;
+    color: aqua;
+}
+
+.image-box h3 {
+    font-size: 120px;
+    color: rgb(127, 196, 23);
+}
+
+.image-box p {
+    font-size: 35px;
+    color: black;
+}
+
+.image-box img {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    margin-top: 10px;
+}
+
+.Image1 {
+    left: 120px;
+}
+.Image2 {
+    left: 550px;
+}
+.Image3 {
+    left: 920px;
+}
+.Image4 {
+    left: 1300px;
+}
+.Image5 {
+    left: 120px;
+}
+.Image6 {
+    left: 500px;
+}
+.Image7 {
+    left: 900px;
+}
+.Image8 {
+    left: 1300px;
+}
+.Image9 {
+    left: 120px;
+    top: 1100px;
+}
+.Image10 {
+    left: 520px;
+}
+.Image11 {
+    left: 900px;
+}
+.Image12 {
+    left: 1280px;
+}
+.Image13 {
+    left: 150px;
+}
+.Image14 {
+    left: 520px;
+}
+.Image15 {
+    left: 890px;
+}
+.Image16 {
+    left: 1260px;
+}
+.Image17 {
+    left: 150px;
+}
+.Image18 {
+    left: 550px;
+}
+.Image19 {
+    left: 910px;
+}
+.Image20 {
+    left: 1270px;
+}
+.Image21 {
+    left: 120px;
+}
+.Image22 {
+    left: 520px;
+}
+.Image23 {
+    left: 920px;
+}
+.Image24 {
+    left: 1270px;
+}
+.Image25 {
+    left: 510px;
+}
+.Image26 {
+    left: 910px;
+}
+
+@media (max-width: 768px) {
+    .navbar h1 {
+        font-size: 28px; /* Reduce font size for smaller screens */
+    }
+
+    .image-box {
+        width: calc(50% - 10px); /* Show 2 boxes per row on smaller screens */
+    }
+
+    .image-box h2 {
+        font-size: 60px; /* Reduce font size for smaller screens */
+    }
+
+    .image-box h3 {
+        font-size: 36px; /* Reduce font size for smaller screens */
+    }
+
+    .image-box p {
+        font-size: 16px; /* Reduce font size for smaller screens */
+    }
+}
+
+/* Media query for even smaller screens (adjust as needed) */
+@media (max-width: 480px) {
+    .navbar h1 {
+        font-size: 24px; /* Further reduce font size for very small screens */
+    }
+
+    .image-box {
+        width: 100%; /* Show 1 box per row on very small screens */
+    }
+
+    .image-box h2 {
+        font-size: 40px; /* Reduce font size for very small screens */
+    }
+
+    .image-box h3 {
+        font-size: 24px; /* Reduce font size for very small screens */
+    }
+
+    .image-box p {
+        font-size: 14px; /* Reduce font size for very small screens */
+    }
+}
