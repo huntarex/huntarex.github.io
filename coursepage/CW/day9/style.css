@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url(Social_dino-with-hat.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 50%;
+}
+
+.button-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    
+}
+
+.button {
+    margin-left: 10px;
+    border-radius: 4px;
+    
+}
+
+
+
+.box {
+    width: 329px;
+    height: 586px;
+    border: 1px solid black;
+    padding: 0px;
+    margin: 10px;
+    background-color: black;
+    display: none;
+    position: absolute;
+}
+
+.box2 {
+    width: 1000px;
+    height: 100px;
+    border: 1px solid black;
+    padding: 0px;
+    margin: 500px;
+    position: absolute;
+    margin-left: 400px;
+    background-color: blue;
+    top: 70px;
+    display: none;
+    
+    
+    
+}
+
+.box2 img{
+    width: 100%;
+    height: 100px;
+}
+
+
+
+#closeButton {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+
+
+
+
+
